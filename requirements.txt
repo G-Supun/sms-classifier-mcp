@@ -1,0 +1,13 @@
+# MCP server
+mcp[cli]>=1.0,<2.0
+
+# Student CNN inference
+torch>=2.0
+tokenizers>=0.20,<1.0
+
+# Colab notebook: teacher model and knowledge distillation
+transformers
+safetensors
+
+# Testing
+pytest>=8.0,<10.0
